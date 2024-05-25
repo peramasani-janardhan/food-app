@@ -1,0 +1,66 @@
+.logo {
+  width: 100px;
+  cursor: pointer;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+.headerSearch {
+  margin: 30px 0px;
+}
+.headerSearch > input {
+  width: 400px;
+  height: 40px;
+  border-style: solid;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.navbar > ul {
+  display: flex;
+}
+.navbar > ul > li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.navbar > ul > li:hover {
+  color: yellowgreen;
+}
+.card-container {
+  /* width: 800px;
+  height: 800px;
+  border: 1px solid black; */
+  display: flex;
+}
+.card {
+  width: 200px;
+  padding: 5px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.res-logo {
+  width: 100%;
+  height: 100px;
+}
+.item-name {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+.item-cusine-name {
+  font-size: 15px;
+}
+.card-buttion {
+  width: 100%;
+  height: 30px;
+  color: white;
+  background-color: blue;
+  cursor: pointer;
+}
